@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Paratottam Karshaka Vikasana Samithi" />
+    <title>Paratottam Karshaka Vikasana Samithi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top Information Bar -->
+    <div class="top-bar">
+      <div class="top-bar-inner">
+        <!-- Left: Contact Details -->
+        <div class="contact-details">
+          <span class="contact-item">
+            <span class="contact-icon">☎</span>
+            <a href="tel:04935245611">04935245611</a>
+          </span>
+
+          <span>|</span>
+
+          <span class="contact-item">
+            <span class="contact-icon">☎</span>
+            <a href="tel:9496103165">9496103165</a>
+          </span>
+
+          <span>|</span>
+
+          <span class="contact-item">
+            <span class="contact-icon">✉</span>
+            <a href="mailto:pkvsamithi2012@gmail.com">
+              pkvsamithi2012@gmail.com
+            </a>
+          </span>
+
+          <span>|</span>
+
+          <span class="contact-item">
+            <span class="contact-icon">🌐</span>
+            <a href="https://www.pkvs.co.in" target="_blank">
+              www.pkvs.co.in
+            </a>
+          </span>
+        </div>
+
+        <!-- Right: Address -->
+        <div class="address">
+          <span class="address-icon">📍</span>
+          <span>Varayal P.O, Thalapuzha, Wayanad Dist., Keralam, S. India</span>
+        </div>
+      </div>
+    </div>
+    <!-- Centered logo navbar -->
+    <header class="navbar">
+      <div class="nav-inner">
+        <div class="brand-group">
+          <!-- Organization Name -->
+          <div class="brand-name">
+            <span>PARATHOTTAM</span>
+            <strong>KARSHAKA VIKASANA SAMITHI</strong>
+          </div>
+
+          <!-- Logo -->
+          <a
+            href="#"
+            class="logo-wrap"
+            aria-label="Paratottam Karshaka Vikasana Samithi"
+          >
+            <img
+              src="logo.jpg"
+              alt="Paratottam Karshaka Vikasana Samithi Logo"
+            />
+          </a>
+
+          <!-- Registration Number -->
+          <div class="registration">
+            <span>REGISTRATION NO.</span>
+            <strong>21/88</strong>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Main banner -->
+      <section class="hero">
+        <div class="hero-pattern"></div>
+
+        <div class="hero-content">
+          <!-- Left side: organization name -->
+          <div class="hero-text">
+            <span class="eyebrow">PARATHOTTAM</span>
+            <h1>PARATHOTTAM<br />KARSHAKA<br />VIKASANA<br />SAMITHI</h1>
+            <div class="title-line"></div>
+            <p>
+              Supporting agricultural development, community growth and the
+              progress of farmers through collective action.
+            </p>
+
+            <div class="trust-points">
+              <span>🌱 Farmer Development</span>
+              <span>🤝 Community Support</span>
+            </div>
+          </div>
+
+          <!-- Right side: payment QR -->
+          <div class="payment-card">
+            <div class="payment-heading">
+              <span class="payment-icon">₹</span>
+              <div>
+                <small>SECURE DIGITAL PAYMENT</small>
+                <h2>Scan &amp; Pay</h2>
+              </div>
+            </div>
+
+            <div class="qr-frame">
+              <img src="payment-qr.png" alt="Payment QR Code" />
+            </div>
+
+            <p class="scan-text">Scan the QR code with any UPI app</p>
+            <p class="upi-label">UPI ID</p>
+            <p class="upi-id">8848575165@cnrb</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= PKVS POSTER GALLERY ================= -->
+
+    <section class="poster-gallery">
+      <div class="gallery-container">
+        <!-- Section Heading -->
+        <div class="gallery-heading">
+          <span>OUR WORK &amp; INITIATIVES</span>
+          <h2>PKVS Activities Gallery</h2>
+          <p>
+            Explore our initiatives in environmental conservation, sustainable
+            agriculture, livelihood development, social welfare, and community
+            empowerment.
+          </p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="poster-grid">
+          <!-- Poster 1 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-1.jpg"
+              alt="PKVS Environmental Conservation Activities"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>01</span>
+              <h3>Environmental Conservation</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 2 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-2.jpg"
+              alt="PKVS Sustainable Agriculture and Forestry"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>02</span>
+              <h3>Sustainable Agriculture &amp; Forestry</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 3 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-3.jpg"
+              alt="PKVS Livelihood and Skill Development"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>03</span>
+              <h3>Livelihood &amp; Skill Development</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 4 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-4.jpg"
+              alt="PKVS Vocational Training and Entrepreneurship"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>04</span>
+              <h3>Vocational Training &amp; Entrepreneurship</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 5 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-5.jpg"
+              alt="PKVS Micro Enterprise and Digital Literacy"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>05</span>
+              <h3>Micro-Enterprise &amp; Digital Literacy</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 6 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-6.jpg"
+              alt="PKVS Social Welfare and Healthcare Support"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>06</span>
+              <h3>Social Welfare &amp; Healthcare</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 7 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-7.jpg"
+              alt="PKVS Community and Tribal Empowerment"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>07</span>
+              <h3>Community &amp; Tribal Empowerment</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 8 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-8.jpg"
+              alt="PKVS Community Development Initiatives"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>08</span>
+              <h3>Community Development</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 9 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-9.jpg"
+              alt="PKVS Pragathi Social Welfare Project"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>09</span>
+              <h3>Pragathi Social Welfare Project</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 10 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-10.jpg"
+              alt="PKVS Women Empowerment Initiative"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>10</span>
+              <h3>Women Empowerment</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+
+          <!-- Poster 11 -->
+          <div class="poster-item">
+            <img
+              src="images/Poster-11.jpg"
+              alt="PKVS Community Empowerment Programs"
+              loading="lazy"
+            />
+
+            <div class="poster-overlay">
+              <span>11</span>
+              <h3>Community Empowerment</h3>
+              <button type="button" onclick="openPoster(this)">
+                View Poster
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= POSTER LIGHTBOX ================= -->
+
+    <div class="poster-lightbox" id="posterLightbox">
+      <button class="lightbox-close" onclick="closePoster()" aria-label="Close">
+        &times;
+      </button>
+
+      <button
+        class="lightbox-prev"
+        onclick="previousPoster()"
+        aria-label="Previous"
+      >
+        &#10094;
+      </button>
+
+      <div class="lightbox-content">
+        <img id="lightboxImage" src="" alt="PKVS Poster" />
+        <h3 id="lightboxTitle"></h3>
+      </div>
+
+      <button class="lightbox-next" onclick="nextPoster()" aria-label="Next">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- ================= ABOUT PKVS SECTION ================= -->
+
+    <section class="about-pkvs">
+      <div class="about-container">
+        <!-- Section Heading -->
+        <div class="section-heading">
+          <span>ABOUT PKVS</span>
+          <h2>Parathottam Karshaka Vikasana Samithi <strong>(PKVS)</strong></h2>
+          <p class="tagline">
+            Empowering Communities <b>|</b> Sustaining Ecosystems <b>|</b>
+            Enriching Lives
+          </p>
+        </div>
+
+        <!-- Introduction -->
+        <div class="about-intro">
+          <div class="intro-content">
+            <span class="small-title">WHO WE ARE</span>
+
+            <p>
+              Established in 1987 in Varayaal, Mananthavady (Wayanad, Kerala),
+              Parathottam Karshaka Vikasana Samithi (PKVS) is a registered
+              Non-Governmental Organization dedicated to holistic community
+              development and ecological stewardship.
+            </p>
+
+            <p>
+              Registered under Section XXI of the Indian Societies Registration
+              Act, 1860, PKVS has worked for decades to strengthen rural
+              communities while protecting and restoring the ecosystems on which
+              they depend.
+            </p>
+
+            <p>
+              For over three decades, PKVS has operated at the intersection of
+              modern agricultural innovation, social welfare, and environmental
+              conservation, transforming rural livelihoods across the region.
+            </p>
+
+            <p>
+              Our ethos centers on bridging traditional rural wisdom with
+              scientific advances to foster self-reliant, resilient, and
+              inclusive communities.
+            </p>
+          </div>
+
+          <!-- Registration Details -->
+          <div class="registration-card">
+            <div class="info-card-title">
+              <span class="info-icon">✓</span>
+              <h3>Registration &amp; Recognition</h3>
+            </div>
+
+            <div class="registration-item">
+              <span>FCRA Registration</span>
+              <p>
+                Registered under the Foreign Contribution (Regulation) Act, 1976
+                (Section 6(1)).
+              </p>
+            </div>
+
+            <div class="registration-item">
+              <span>80G Registration</span>
+              <p>
+                Registered under Section 80G(5)(VI) of the Income Tax Act, 1961.
+              </p>
+            </div>
+
+            <div class="registration-item">
+              <span>12A Registration</span>
+              <p>
+                Registered under Section 12A(a) of the Income Tax Act, 1961.
+              </p>
+            </div>
+
+            <div class="registration-item">
+              <span>PAN</span>
+              <p>
+                Holds a Permanent Account Number (PAN) under the Income Tax Act.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mission & Vision -->
+        <div class="mission-vision">
+          <div class="mv-card vision-card">
+            <div class="mv-icon">◉</div>
+
+            <div>
+              <span>OUR VISION</span>
+              <h3>A Resilient Society</h3>
+              <p>
+                A resilient society where rural communities thrive through
+                sustainable livelihoods, gender equity, and ecological balance.
+              </p>
+            </div>
+          </div>
+
+          <div class="mv-card mission-card">
+            <div class="mv-icon">✦</div>
+
+            <div>
+              <span>OUR MISSION</span>
+              <h3>Uplifting Vulnerable Communities</h3>
+              <p>
+                To uplift vulnerable populations by implementing modern
+                scientific agrarian practices, vocational empowerment,
+                comprehensive welfare initiatives, and ecosystem restoration
+                drives.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Focus Areas -->
+        <div class="focus-section">
+          <div class="section-heading focus-heading">
+            <span>WHAT WE DO</span>
+            <h2>Focus Areas, Key Initiatives &amp; Impact Scope</h2>
+            <p>
+              Our work brings together agriculture, environment, livelihoods,
+              healthcare and community empowerment.
+            </p>
+          </div>
+
+          <div class="focus-grid">
+            <!-- Card 1 -->
+            <div class="focus-card">
+              <div class="focus-number">01</div>
+              <div class="focus-icon">🌱</div>
+
+              <h3>Sustainable Agriculture &amp; Forestry</h3>
+
+              <p>
+                Implementation of modern scientific farming techniques,
+                agroforestry, native species restoration, and sustainable
+                industrial/project support for farmers.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="focus-card">
+              <div class="focus-number">02</div>
+              <div class="focus-icon">🌳</div>
+
+              <h3>Environmental &amp; Forest Conservation</h3>
+
+              <p>
+                Biodiversity protection, green cover restoration, wetland
+                protection, plastic waste reduction, tree planting drives, and
+                marine, beach and forest clean-up programs.
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="focus-card">
+              <div class="focus-number">03</div>
+              <div class="focus-icon">💼</div>
+
+              <h3>Livelihood &amp; Skill Development</h3>
+
+              <p>
+                Vocational training, entrepreneurship development,
+                micro-enterprise support, and digital literacy initiatives
+                designed to foster financial independence.
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="focus-card">
+              <div class="focus-number">04</div>
+              <div class="focus-icon">❤</div>
+
+              <h3>Social Welfare &amp; Healthcare Support</h3>
+
+              <p>
+                Housing projects, healthcare assistance, life care services,
+                disaster relief, shelter management, and comprehensive
+                rehabilitation programs.
+              </p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="focus-card">
+              <div class="focus-number">05</div>
+              <div class="focus-icon">🤝</div>
+
+              <h3>Community &amp; Tribal Empowerment</h3>
+
+              <p>
+                Integrated welfare programs for tribal communities, child
+                development drives, educational aid, and gender equality
+                advocacy securing women's and children's rights.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Why Partner -->
+        <div class="partner-section">
+          <div class="partner-heading">
+            <span>WORK WITH PKVS</span>
+            <h2>Why Partner With Us?</h2>
+            <p>
+              Building stronger communities through experience, collaboration
+              and sustainable action.
+            </p>
+          </div>
+
+          <div class="partner-grid">
+            <div class="partner-card">
+              <div class="partner-icon">35+</div>
+              <div>
+                <h3>Years of Local Trust</h3>
+                <p>
+                  Deep-rooted presence in Wayanad with an extensive grassroots
+                  network.
+                </p>
+              </div>
+            </div>
+
+            <div class="partner-card">
+              <div class="partner-icon">◎</div>
+              <div>
+                <h3>Holistic Ecosystem Approach</h3>
+                <p>
+                  Integrating economic stability, social empowerment, and
+                  environmental health in every project.
+                </p>
+              </div>
+            </div>
+
+            <div class="partner-card">
+              <div class="partner-icon">✓</div>
+              <div>
+                <h3>Proven Field Execution</h3>
+                <p>
+                  Experienced team capable of executing complex welfare,
+                  agricultural, and conservation projects efficiently.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BANK DETAILS SECTION ================= -->
+
+    <section class="bank-section">
+      <div class="bank-container">
+        <div class="bank-heading">
+          <span>SUPPORT PKVS</span>
+          <h2>Bank Account Details</h2>
+          <p>
+            Support our community development, environmental conservation,
+            sustainable agriculture and social welfare initiatives.
+          </p>
+        </div>
+
+        <div class="bank-card">
+          <!-- Bank Icon -->
+          <div class="bank-icon">₹</div>
+
+          <!-- Account Information -->
+          <div class="bank-info">
+            <div class="bank-account-name">
+              <span>ACCOUNT NAME</span>
+              <h3>Parathottam Karshaka Vikasana Samithi</h3>
+            </div>
+
+            <div class="bank-details-grid">
+              <div class="bank-detail">
+                <span>Bank</span>
+                <strong>Kerala Gramin Bank</strong>
+              </div>
+
+              <div class="bank-detail">
+                <span>Branch</span>
+                <strong>Periya</strong>
+              </div>
+
+              <div class="bank-detail account-number">
+                <span>A/C NO</span>
+                <strong>40405100003372</strong>
+              </div>
+
+              <div class="bank-detail">
+                <span>IFSC CODE</span>
+                <strong>KLGB0040405</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Copy Account Number -->
+          <button
+            class="copy-account-btn"
+            onclick="copyAccountNumber()"
+            type="button"
+          >
+            <span id="copyIcon">⧉</span>
+            <span id="copyText">Copy A/C No</span>
+          </button>
+        </div>
+
+        <!-- Donation Note -->
+        <div class="bank-note">
+          <span>✓</span>
+          <p>
+            Your contribution can help strengthen rural livelihoods, protect
+            ecosystems and support vulnerable communities.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Parathottam Karshaka Vikasana Samithi. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const posters = [
+        {
+          image: "Poster-1(1).jpg",
+          title: "Environmental Conservation",
+        },
+        {
+          image: "Poster-2(1).jpg",
+          title: "Sustainable Agriculture & Forestry",
+        },
+        {
+          image: "Poster-3(1).jpg",
+          title: "Livelihood & Skill Development",
+        },
+        {
+          image: "Poster-4.jpg",
+          title: "Vocational Training & Entrepreneurship",
+        },
+        {
+          image: "Poster-5.jpg",
+          title: "Micro-Enterprise & Digital Literacy",
+        },
+        {
+          image: "Poster-6.jpg",
+          title: "Social Welfare & Healthcare",
+        },
+        {
+          image: "Poster-7.jpg",
+          title: "Community & Tribal Empowerment",
+        },
+        {
+          image: "Poster-8.jpg",
+          title: "Community Development",
+        },
+        {
+          image: "Poster-9.jpg",
+          title: "Pragathi Social Welfare Project",
+        },
+        {
+          image: "Poster-10.jpg",
+          title: "Women Empowerment",
+        },
+        {
+          image: "Poster-11.jpg",
+          title: "Community Empowerment",
+        },
+      ];
+
+      let currentPoster = 0;
+
+      const lightbox = document.getElementById("posterLightbox");
+      const lightboxImage = document.getElementById("lightboxImage");
+      const lightboxTitle = document.getElementById("lightboxTitle");
+
+      function openPoster(button) {
+        const posterItem = button.closest(".poster-item");
+
+        const allItems = [...document.querySelectorAll(".poster-item")];
+
+        currentPoster = allItems.indexOf(posterItem);
+
+        showPoster();
+
+        lightbox.classList.add("active");
+
+        document.body.style.overflow = "hidden";
+      }
+
+      function showPoster() {
+        const poster = posters[currentPoster];
+
+        lightboxImage.src = poster.image;
+        lightboxTitle.textContent = poster.title;
+      }
+
+      function closePoster() {
+        lightbox.classList.remove("active");
+
+        document.body.style.overflow = "";
+      }
+
+      function nextPoster() {
+        currentPoster++;
+
+        if (currentPoster >= posters.length) {
+          currentPoster = 0;
+        }
+
+        showPoster();
+      }
+
+      function previousPoster() {
+        currentPoster--;
+
+        if (currentPoster < 0) {
+          currentPoster = posters.length - 1;
+        }
+
+        showPoster();
+      }
+
+      /* Close when clicking outside the poster */
+
+      lightbox.addEventListener("click", function (e) {
+        if (e.target === lightbox) {
+          closePoster();
+        }
+      });
+
+      /* Keyboard controls */
+
+      document.addEventListener("keydown", function (e) {
+        if (!lightbox.classList.contains("active")) {
+          return;
+        }
+
+        if (e.key === "Escape") {
+          closePoster();
+        }
+
+        if (e.key === "ArrowRight") {
+          nextPoster();
+        }
+
+        if (e.key === "ArrowLeft") {
+          previousPoster();
+        }
+      });
+    </script>
+
+    <script>
+      function copyAccountNumber() {
+        const accountNumber = "40405100003372";
+
+        navigator.clipboard.writeText(accountNumber).then(function () {
+          const copyText = document.getElementById("copyText");
+          const copyIcon = document.getElementById("copyIcon");
+
+          copyText.textContent = "Copied!";
+          copyIcon.textContent = "✓";
+
+          setTimeout(function () {
+            copyText.textContent = "Copy A/C No";
+            copyIcon.textContent = "⧉";
+          }, 2000);
+        });
+      }
+    </script>
+  </body>
+</html>
